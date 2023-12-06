@@ -3,7 +3,7 @@
 const Hero = () => {
   return (
     <div>
-      <section className="bg-gradient-to-t   from-[#030303] to-[#363636]">
+      <section className="">
         <div className="flex flex-col h-screen   justify-center">
           <div className="  w-full px-5  mx-auto max-w-7xl  lg:px-16 md:px-12">
             <div className="max-w-5xl  lg:pt-0 mx-auto text-center">

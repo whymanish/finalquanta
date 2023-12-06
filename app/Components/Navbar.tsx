@@ -34,7 +34,7 @@ const Navbar = () => {
                 >
                   <div aria-hidden="true" className="flex space-x-1">
                     <div aria-hidden="true" className="flex space-x-1">
-                      <div className="h-4 w-4 rounded-full bg-gray-500 dark:bg-gray-200"></div>
+                      <div className="h-4 w-4 rounded-full bg-gray-50 dark:bg-gray-200"></div>
                       <div className="h-6 w-2 bg-blue-500 dark:bg-primaryLight"></div>
                     </div>
                     <span className="text-base font-bold text-gray-100  dark:text-white">
