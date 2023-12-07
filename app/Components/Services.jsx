@@ -5,7 +5,7 @@ const Services = () => {
     <div>
       
       
-    <section class="">
+    <section class="py-20">
         <div class="relative  items-center w-full px-5  mx-auto max-w-7xl lg:px-16 md:px-12">
             <div>
                 <div class="text-center ">
