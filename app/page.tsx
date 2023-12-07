@@ -4,6 +4,7 @@ import Footer from './Components/Footer'
 import FAQ from './Components/FAQ'
 import Team from './Components/Team'
 import Services from './Components/Services'
+import Bento from './Components/Bento'
 export default function Home() {
   return (
     <>
@@ -12,6 +13,7 @@ export default function Home() {
     <Hero/>
    
     <Services/>
+    <Bento/>
   
    
     <Team/>
