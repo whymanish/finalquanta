@@ -19,7 +19,7 @@ const Services = () => {
                     </p>
                 </div>
             </div>
-            <div class="relative items-center w-full py-12 pb-12 mx-auto mt-12 max-w-7xl">
+            <div class="relative items-center w-full pt-12 pb-12 mx-auto mt-12 max-w-7xl">
                 <svg class="absolute -mt-24 blur-3xl" fill="none" viewBox="0 0 400 400" height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_10_20)">
                         <g filter="url(#filter0_f_10_20)">
@@ -38,6 +38,19 @@ const Services = () => {
                     </defs>
                 </svg>
             </div>
+            <div className='relative -top-16'>
+
+            <div className='max-w-7xl hidden lg:block mx-auto'> 
+            <img src='laptop.png'/>
+            </div>
+            </div>
+            <div className='relative -top-28'>
+            <div className='max-w-7xl block lg:hidden mx-auto'> 
+            <img src='mobile.png'/>
+            </div>
+            </div>
+            
+           
         </div>
     </section>
             
