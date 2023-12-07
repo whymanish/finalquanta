@@ -18,7 +18,7 @@ const Services = () => {
             <div class="mx-auto max-w-3xl text-center">
               <div class="mb-6 max-w-[720px] lg:mb-12">
                 <h2 class="mb-4 text-3xl font-semibold md:text-5xl">
-                  <span class="bg-cover bg-center px-4 text-white" style={{ backgroundImage: "url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6391a5b04f2836ad87dcc3bc_Rectangle%20773.svg')" }}>WebApps</span>&nbsp;Development
+                  <span class="bg-cover bg-center px-4 text-white" style={{ backgroundImage: "url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6391a5b04f2836ad87dcc3bc_Rectangle%20773.svg')" }}>WebApps</span><br className='block lg:hidden'/>&nbsp;Development
                 </h2>
                 <div class="mx-auto max-w-[630px]">
                   <p class="text-[#e0e0e0]">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna</p>
