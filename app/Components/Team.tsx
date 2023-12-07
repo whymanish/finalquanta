@@ -18,7 +18,7 @@ const Team = () => {
                         <div className="flex items-center gap-x-4">
                             <img
                                 className="rounded-full object-cover w-20 h-20"
-                                src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                src="harsh.jpg"
                                 alt="Image Description"
                             />
                             <div className="grow">
@@ -87,7 +87,7 @@ const Team = () => {
                         <div className="flex items-center gap-x-4">
                             <img
                                 className="rounded-full object-cover w-20 h-20"
-                                src="https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                src="akash.jpg"
                                 alt="Image Description"
                             />
                             <div className="grow">
@@ -158,7 +158,7 @@ const Team = () => {
                         <div className="flex items-center gap-x-4">
                             <img
                                 className="rounded-full object-cover w-20 h-20"
-                                src="https://images.unsplash.com/flagged/photo-1567400358593-9e6382752ea2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                src="manish.jpg"
                                 alt="Image Description"
                             />
                             <div className="grow">
@@ -236,7 +236,6 @@ const Team = () => {
 
                 </div>
             </div>
-            
         </div>
     );
 };

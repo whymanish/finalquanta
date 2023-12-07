@@ -11,7 +11,7 @@ const AccordionItem = ({ title, content }) => {
   return (
     <div className="transition-all group duration-200 border rounded-2xl border-gray-700 shadow-lg cursor-pointer hover:bg-gray-200">
       <button type="button" className="flex items-center justify-between w-full px-4 py-5 sm:p-6" onClick={toggleAccordion}>
-        <span className="flex text-lg font-semibold text-white group-hover:text-black">{title}</span>
+        <span className="flex text-sm lg:text-lg font-semibold text-white group-hover:text-black">{title}</span>
         <svg
           className={`w-6 h-6 text-gray-400 ${isOpen ? 'rotate-180' : ''}`}
           xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,7 @@ const FAQ = () => {
       <section className="py-10 sm:py-16 lg:py-24">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
            <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-                    <h2 className="text-3xl text-gray-100 font-bold md:text-4xl md:leading-tight dark:text-white">
+                    <h2 className="text-2xl lg:text-3xl text-gray-100 font-bold md:text-4xl md:leading-tight dark:text-white">
                     Frequently Asked Questions
                     </h2>
                     <p className="mt-1 text-gray-300 dark:text-gray-400">
