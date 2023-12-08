@@ -5,6 +5,7 @@ import FAQ from './Components/FAQ'
 import Team from './Components/Team'
 import Services from './Components/Services'
 import Bento from './Components/Bento'
+import Terms from './Components/Terms'
 export default function Home() {
   return (
     <>

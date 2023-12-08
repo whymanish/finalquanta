@@ -3,43 +3,40 @@ import React from "react";
 const Bento = () => {
   return (
     <div>
-      <section className="relative">
-        <div className="mx-auto max-w-7xl mb-20 px-5 md:px-10 ">
-          
-          <div className="grid grid-cols-1 gap-20 md:grid-cols-3 md:gap-8 lg:gap-12">
-            <div className="relative grid gap-4 rounded-[30px] border border-solid border-[#636262] px-8 pb-8 pt-16 md:px-10 md:pt-20">
-              <div className="absolute -top-8 left-10 flex flex-col items-center justify-center rounded-xl border border-solid border-[#5481fb] bg-white px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px]">
-                <p className="text-xl font-bold md:text-2xl">1</p>
+
+      <section>
+        <div className="mx-auto max-w-7xl px-5 md:px-10">
+         
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 md:grid-cols-3 lg:gap-12">
+            
+            
+            
+            <div className="relative mb-8 flex flex-col rounded-2xl border border-solid border-black p-8 [box-shadow:rgb(0,_0,_0)_9px_9px] lg:mb-4">
+              <div className="absolute -top-8 bottom-auto left-auto right-4 flex h-16 w-16 flex-col items-center justify-center rounded-full border border-solid border-[#9b9b9b] bg-white [box-shadow:rgb(0,_0,_0)_0px_5px] lg:right-8">
+                <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/6391585b7b7cd87baef5e9ec_image%203-1.png" alt="" className="relative z-10 inline-block h-8" />
+                <div className="absolute z-0 h-8 w-8 rounded-full border border-[#c0d1ff] bg-[#c0d1ff]"></div>
               </div>
-              <p className="text-xl  text-white font-semibold">Find Component</p>
-              <p className="text-sm text-gray-200">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
+              <p className="mb-4 text-xl font-semibold">Speed</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.</p>
             </div>
-            <div className="relative grid gap-4 rounded-[30px] border border-solid border-[#636262] px-8 pb-8 pt-16 md:px-10 md:pt-20">
-              <div className="absolute -top-8 left-10 flex flex-col items-center justify-center rounded-xl border border-solid border-[#5481fb] bg-white px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px]">
-                <p className="text-xl font-bold md:text-2xl">2</p>
+            <div className="relative mb-8 flex flex-col rounded-2xl border border-solid border-black p-8 [box-shadow:rgb(0,_0,_0)_9px_9px] lg:mb-4">
+              <div className="absolute -top-8 bottom-auto left-auto right-4 flex h-16 w-16 flex-col items-center justify-center rounded-full border border-solid border-[#9b9b9b] bg-white [box-shadow:rgb(0,_0,_0)_0px_5px] lg:right-8">
+                <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/639158557ac2b528531836f1_image%203-3.png" alt="" className="relative z-10 inline-block h-8" />
+                <div className="absolute z-0 h-8 w-8 rounded-full border border-[#c0d1ff] bg-[#c0d1ff]"></div>
               </div>
-              <p className="text-xl text-white font-semibold">Copy and Paste</p>
-              <p className="text-sm text-gray-200">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
+              <p className="mb-4 text-xl font-semibold">Quality</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.</p>
             </div>
-            <div className="relative grid gap-4 rounded-[30px] border border-solid border-[#636262] px-8 pb-8 pt-16 md:px-10 md:pt-20">
-              <div className="absolute -top-8 left-10 flex flex-col items-center justify-center rounded-xl border border-solid border-[#5481fb] bg-white px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px]">
-                <p className="text-xl font-bold md:text-2xl">3</p>
+            <div className="relative mb-8 flex flex-col rounded-2xl border border-solid border-black p-8 [box-shadow:rgb(0,_0,_0)_9px_9px] lg:mb-4">
+              <div className="absolute -top-8 bottom-auto left-auto right-4 flex h-16 w-16 flex-col items-center justify-center rounded-full border border-solid border-[#9b9b9b] bg-white [box-shadow:rgb(0,_0,_0)_0px_5px] lg:right-8">
+                <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/639157f3db4f4b8767c499ba_image%203-5.png" alt="" className="relative z-10 inline-block h-8" />
+                <div className="absolute z-0 h-8 w-8 rounded-full border border-[#c0d1ff] bg-[#c0d1ff]"></div>
               </div>
-              <p className="text-xl text-white font-semibold">Done</p>
-              <p className="text-sm text-gray-200">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
+              <p className="mb-4 text-xl font-semibold">Resources</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.</p>
             </div>
           </div>
         </div>
-        
       </section>
     </div>
   );
