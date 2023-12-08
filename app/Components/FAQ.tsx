@@ -35,14 +35,23 @@ const FAQ = () => {
     <div>
       <section className="py-10 sm:py-16 lg:py-24">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-           <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-                    <h2 className="text-2xl lg:text-3xl text-gray-100 font-bold md:text-4xl md:leading-tight dark:text-white">
-                    Frequently Asked Questions
-                    </h2>
-                    <p className="mt-1 text-gray-300 dark:text-gray-400">
-                        Creative people
-                    </p>
-                </div>
+        <div className="text-center">
+            <h2 className="text-3xl text-white font-semibold md:text-5xl">
+              Frequently Asked{" "}
+              <span
+                className="bg-cover bg-center px-4 text-white"
+                style={{
+                  backgroundImage:
+                    "url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg')",
+                }}
+              >
+               Questions
+              </span>
+            </h2>
+            <p className="mx-auto mb-8 mt-4 max-w-[528px] text-gray-300 md:mb-12 lg:mb-16">
+              Lorem ipsum dolor sit amet elit ut aliquam
+            </p>
+          </div>
 
           <div className="max-w-4xl   mx-auto mt-8 space-y-4 md:mt-16">
             <AccordionItem

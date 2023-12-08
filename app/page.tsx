@@ -6,6 +6,7 @@ import Team from './Components/Team'
 import Services from './Components/Services'
 import Bento from './Components/Bento'
 import Terms from './Components/Terms'
+import Testimonials from './Components/Testimonials'
 export default function Home() {
   return (
     <>
@@ -16,10 +17,10 @@ export default function Home() {
     <Services/>
     <Bento/>
   
-   
+    <Testimonials/>
     <Team/>
     <FAQ/>
-      
+    
     <Footer/>
     </div>
     </>

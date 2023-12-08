@@ -83,12 +83,12 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a href="#" className="md:px-4">
-                        <span>Portfolio</span>
+                        <span>About us</span>
                       </a>
                     </li>
                     <li>
                       <a href="#" className="md:px-4">
-                        <span>Services</span>
+                        <span>Contact us</span>
                       </a>
                     </li>
                   </ul>
