@@ -1,54 +1,48 @@
-import React from 'react'
-import Ontime from './Ontime.json';
+import React from "react";
+
 const Bento = () => {
   return (
     <div>
-      
-<section>
-  <div className="mx-auto w-full mb-20 max-w-7xl px-5 md:px-10 ">
-    <div className="mx-auto grid justify-items-stretch gap-4 md:grid-cols-2 lg:gap-10">
-      
-      <a href="#" className="relative flex justify-center h-[300px] items-end">
-        <div  className="inline-block  h-full w-full rounded-3xl object-cover" >
-        <img src='money.png' className="h-full w-full rounded-3xl object-cover"  alt=""/>
-
-  
-        <div className="absolute bottom-5 left-5 flex flex-col justify-center rounded-2xl bg-white px-8 py-4">
-          <p className="text-sm font-medium sm:text-xl">1</p>
-        </div>
-        </div>
-      </a>
-      <a href="#" className="relative flex h-[300px] items-end">
-      <div  className="inline-block  h-full w-full rounded-3xl object-cover" >
-          <img src='time.png' className="h-full w-full rounded-3xl object-cover"  alt=""/>
-          <div className="absolute bottom-5 left-5 flex flex-col justify-center rounded-2xl bg-white px-8 py-4">
-            <p className="text-sm font-medium sm:text-xl">2</p>
+      <section className="relative">
+        <div className="mx-auto max-w-7xl mb-20 px-5 md:px-10 ">
+          
+          <div className="grid grid-cols-1 gap-20 md:grid-cols-3 md:gap-8 lg:gap-12">
+            <div className="relative grid gap-4 rounded-[30px] border border-solid border-[#636262] px-8 pb-8 pt-16 md:px-10 md:pt-20">
+              <div className="absolute -top-8 left-10 flex flex-col items-center justify-center rounded-xl border border-solid border-[#5481fb] bg-white px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px]">
+                <p className="text-xl font-bold md:text-2xl">1</p>
+              </div>
+              <p className="text-xl  text-white font-semibold">Find Component</p>
+              <p className="text-sm text-gray-200">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
+                aliquam, purus sit.
+              </p>
+            </div>
+            <div className="relative grid gap-4 rounded-[30px] border border-solid border-[#636262] px-8 pb-8 pt-16 md:px-10 md:pt-20">
+              <div className="absolute -top-8 left-10 flex flex-col items-center justify-center rounded-xl border border-solid border-[#5481fb] bg-white px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px]">
+                <p className="text-xl font-bold md:text-2xl">2</p>
+              </div>
+              <p className="text-xl text-white font-semibold">Copy and Paste</p>
+              <p className="text-sm text-gray-200">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
+                aliquam, purus sit.
+              </p>
+            </div>
+            <div className="relative grid gap-4 rounded-[30px] border border-solid border-[#636262] px-8 pb-8 pt-16 md:px-10 md:pt-20">
+              <div className="absolute -top-8 left-10 flex flex-col items-center justify-center rounded-xl border border-solid border-[#5481fb] bg-white px-8 py-5 [box-shadow:rgb(0,_0,_0)_4px_4px]">
+                <p className="text-xl font-bold md:text-2xl">3</p>
+              </div>
+              <p className="text-xl text-white font-semibold">Done</p>
+              <p className="text-sm text-gray-200">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
+                aliquam, purus sit.
+              </p>
+            </div>
           </div>
-          </div>
-      </a>
-      <a href="#" className="relative flex justify-center h-[300px] items-end">
-        <div  className="inline-block h-full w-full rounded-3xl object-cover" >
-        <img src='ment.png' className="h-full w-full rounded-3xl object-cover"  alt=""/>
-
-            
-        <div className="absolute bottom-5 left-5 flex flex-col justify-center rounded-2xl bg-white px-8 py-4">
-          <p className="text-sm font-medium sm:text-xl">3</p>
         </div>
-        </div>
-      </a>
-      <a href="#" className="relative flex h-[300px] items-end">
-      <div  className="inline-block  h-full w-full rounded-3xl object-cover" >
-          <img src='amm.png' className="h-full w-full rounded-3xl object-cover"  alt=""/>
-          <div className="absolute bottom-5 left-5 flex flex-col justify-center rounded-2xl bg-white px-8 py-4">
-            <p className="text-sm font-medium sm:text-xl">4</p>
-          </div>
-          </div>
-      </a>
+        
+      </section>
     </div>
-  </div>
-</section>
-    </div>
-  )
-}
+  );
+};
 
-export default Bento
+export default Bento;
