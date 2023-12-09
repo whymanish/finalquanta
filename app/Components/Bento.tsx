@@ -3,28 +3,10 @@ import React from "react";
 const Bento = () => {
   return (
     <div>
-      <section className="py-12">
+      <section className="pb-12">
         <div className="mx-auto flex w-full max-w-7xl flex-col items-center justify-center px-5  md:px-10 ">
-          <p className="font-inter text-white mb-2 text-center text-sm font-medium">
-            3 EASY STEPS
-          </p>
-          <div className="text-center">
-            <h2 className="text-3xl text-white font-semibold md:text-5xl">
-              How it{" "}
-              <span
-                className="bg-cover bg-center px-4 text-white"
-                style={{
-                  backgroundImage:
-                    "url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg')",
-                }}
-              >
-                Works
-              </span>
-            </h2>
-            <p className="mx-auto mb-8 mt-4 max-w-[528px] text-gray-300 md:mb-12 lg:mb-16">
-              Lorem ipsum dolor sit amet elit ut aliquam
-            </p>
-          </div>
+         
+          
           <div className="flex bg-gradient-to-r from-rose-100 to-teal-100 [box-shadow:rgb(106,_218,_255)_9px_9px] rounded-3xl px-4 flex-col items-start justify-center lg:flex-row">
             <div className="relative group my-8 flex w-full rounded-md lg:mx-8 lg:flex-col">
               <div className="flex group h-16 w-16 items-center justify-center rounded-3x">

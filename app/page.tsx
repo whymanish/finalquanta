@@ -7,6 +7,8 @@ import Services from './Components/Services'
 import Bento from './Components/Bento'
 import Terms from './Components/Terms'
 import Testimonials from './Components/Testimonials'
+import Contact from './Components/Contact'
+import PastProjects from './Components/PastProjects'
 export default function Home() {
   return (
     <>
@@ -15,11 +17,12 @@ export default function Home() {
     <Hero/>
    
     <Services/>
-    <Bento/>
+    <PastProjects/>
   
     <Testimonials/>
     <Team/>
     <FAQ/>
+    <Contact/>
     
     <Footer/>
     </div>
