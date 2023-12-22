@@ -9,11 +9,13 @@ import Terms from './Components/Terms'
 import Testimonials from './Components/Testimonials'
 import Contact from './Components/Contact'
 import PastProjects from './Components/PastProjects'
+import Pattern from './Components/Pattern'
 export default function Home() {
   return (
     <>
     <Navbar/>
     <div className='bg-gradient-to-t   from-[#030303] to-[#363636] '>
+      <Pattern/>
     <Hero/>
    
     <Services/>
